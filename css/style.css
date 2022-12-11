@@ -1,0 +1,106 @@
+body{
+    background-color: #6700b7;
+    margin: 0;
+    color: white;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#btn-mobile{
+    display: none;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+header li{
+    padding: 10px;
+    margin: 10px 10px 0 0;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header img{
+    height: 90px;
+}
+main{
+    margin: 20px;
+    padding-top: 10px;
+}
+main h1{
+    text-align: center;
+}
+section span{
+    box-shadow: black 5px 5px 0px 0px;
+    border-radius: 10px;
+    
+}
+.div-imagem1, .montanha, .texto3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h2, p{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    clear: both;
+    padding: 5px;
+}
+#livros h2{
+    text-align: center;
+}
+.livro1, .livro2, .livro3, .livro4, .livro5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#videos{
+    text-align: center;
+}
+
+#videos #titulo1{
+    margin-top: 50px;
+}
+
+.video1, .video2, .video3, .video4{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#nav-footer{
+    margin-top: 40px;
+}
+
+input, textarea{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    
+}
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
