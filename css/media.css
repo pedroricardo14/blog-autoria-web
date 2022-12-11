@@ -1,0 +1,36 @@
+@media (max-width: 700px){
+    body{
+        margin: 0;
+        padding: 0;
+        
+    }
+    #btn-mobile{
+        display: block;
+    }
+    #menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0;
+        background-color: black;
+        height: 0;
+        z-index: 1000;
+        transition: .6s;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #nav.active #menu{
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+        background: #000000;
+        position: absolute;
+    }
+    header{
+       /* position: absolute;*/
+    }
+    #menu a{
+        padding: 1rem 0;
+    }
+}
