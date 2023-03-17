@@ -1,106 +1,219 @@
-body{
-    background-color: #6700b7;
+body {
+    font-family:Helvetica, Arial;
+    background-color:#9400D3;
     margin: 0;
-    color: white;
+    padding: 0;
+    
 }
 header{
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
+    float:left;
+    background-color:black;
+    width:100%;
+    height:30%;
 }
-#btn-mobile{
-    display: none;
+#logo{
+    float:left;
+    height:90%;
+    width:15%;
 }
-header ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style: none;
+nav{
+    float:right;
+    padding:20px;
 }
-header li{
-    padding: 10px;
-    margin: 10px 10px 0 0;
-}
-header a{
-    text-decoration: none;
-    color: white;
-}
-header img{
-    height: 90px;
-}
-main{
-    margin: 20px;
-    padding-top: 10px;
-}
-main h1{
-    text-align: center;
-}
-section span{
-    box-shadow: black 5px 5px 0px 0px;
-    border-radius: 10px;
+.menu{
+    width:100%;
+    height:30%;
     
 }
-.div-imagem1, .montanha, .texto3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+ul{
+    display:inline-block;
+    float:left;
+    padding:10px;
+    }
+li{
+    display:inline-block;
+    float:left;
+    padding:10px;
 }
-footer h2, p{
+a{
+    color:whitesmoke;
+    text-decoration:none;
+    font-weight:bold;
+}
+a:hover{
+    color:#ff6a7f;
+    background:#6340ff;
+    padding:20px 5px;
+}
+#conteudo h1{
     text-align: center;
+    margin-top: 60px;
 }
+h1{
+    color:white;
+    float: center ;
+}
+h2{
+    text-align:center;
+    color:white;
+}
+p{
+    color:white;
+}
+.emocional{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#tituloprincipal{
+    margin-top: 90px;
+    color:whitesmoke;
+    font-size:1.5em;
+    margin: 230px 0 0 0;
+    
+}
+.video1{
+    
+    width:90%;
+    height:65%;
+}
+.video2{
+    
+    width:90%;
+    height:40%;
+}
+
+
+.imagem1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
 footer{
-    background-color: black;
-    clear: both;
-    padding: 5px;
+        background-color:black;
+        color:white;
+        text-align:center;
+        padding:5px;
+        clear:both;
 }
-#livros h2{
-    text-align: center;
-}
-.livro1, .livro2, .livro3, .livro4, .livro5{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+ #nav-footer{
+     width:100%;
+     height:30%;
+ }
 
-#videos{
-    text-align: center;
+.div-imagem1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
-
-#videos #titulo1{
-    margin-top: 50px;
+.montanha{
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
-
-.video1, .video2, .video3, .video4{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.livro1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.livro2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.livro3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.livro4{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.livro5{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.instagram{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:100%;
+}
+.contato{
+    display:flex;
+    justify-content:center;
+    align-items:center;
     
 }
-#nav-footer{
-    margin-top: 40px;
+
+    
+
+
+#legenda{
+    font-weight:bold;
+    padding:4px;
 }
 
-input, textarea{
-    padding: 10px;
-    width: 100%;
-    border: none;
-    border-radius: 20px;
-    background-color: black;
-    color: white;
+fieldset{
+    width:300px;
+    height:250px;
+}
+
+#link1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:blue;
+    padding:10px;
+}
+.link1{
+   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    width: 50%;
+    
     
 }
-.submit{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.texto3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
 }
+.video1{
+    width:70%;
+    height:30%;
+}
+input[type=text], input[type="email"], input[type="number"], 
+textarea{
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #CCC;
+ border-radius: 12px;
+ box-sizing: border-box;
+}
+
+
 button{
-    padding: 20px;
-    border: none;
-    border-radius: 20px;
-    background-color: green;
-    color: white;
-    font-weight: bold;
-    margin-top: 20px;
+ background-color: #111010;
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ margin-bottom: 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ border-radius: 12px;
 }
